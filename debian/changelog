@@ -1,0 +1,33 @@
+requirejs (2.1.18-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add libjs-requirejs package (closes: #737042).
+  * Update copyright.
+  * Update to proper upstream source.
+  * Make watch more general.
+  * Update Standards-Version to 3.9.6 .
+  * New maintainer.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 06 Jun 2015 04:37:18 +0000
+
+requirejs (2.1.9-2) unstable; urgency=medium
+
+  * improved d/watch
+  * added nodejs as a dependency. Closes: #747660
+
+ -- Georges Khaznadar <georgesk@debian.org>  Sat, 18 Jan 2014 18:52:28 +0100
+
+requirejs (2.1.9-1) unstable; urgency=low
+
+  * Initial release (Closes: #673725)
+  * created a script to check the numerous copyright notices, and ran it to
+    update debian/copyright. This makes easier to manage the licenses
+    which cover parts of the compiled file r.js
+  * fixed debian/copyright which missed mentions about Jeremy Ashkenas;
+    thanks to Luca Falavigna for pointing out this bug.
+  * removed directories tests and build/tests which are not used to
+    build the debian package and come with many sourceless javascript
+    minified files. Thanks to Paul Richards Tagliamonte for pointing this
+    issue
+
+ -- Georges Khaznadar <georgesk@debian.org>  Sat, 02 Nov 2013 19:20:54 +0100

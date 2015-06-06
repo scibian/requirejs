@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+override_dh_auto_build:
+	uglifyjs -o require.min.js require.js
+	nodejs dist.js
+
+override_dh_auto_clean:
+	rm -rf dist
+	rm -f require.min.js r.js *~
+	dh_auto_clean
+
+%:
+	dh $@
+
+.PHONY: override_dh_auto_clean override_dh_auto_build
