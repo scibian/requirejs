@@ -1,12 +1,12 @@
 Source: requirejs
 Section: web
 Priority: extra
-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Maintainer: Scibian Project <packaging@scibian.org>
 Build-Depends: debhelper (>= 9), node-uglify
 Standards-Version: 3.9.6
 Homepage: https://github.com/jrburke/r.js
-#Vcs-Git: git://git.debian.org/collab-maint/requirejs.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/requirejs.git;a=summary
+Vcs-Browser: https://github.com/scibian/requirejs
+Vcs-Git: https://github.com/scibian/requirejs.git
 
 Package: node-requirejs
 Architecture: all

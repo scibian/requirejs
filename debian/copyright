@@ -10,6 +10,7 @@ License: BSD-3-Clause and MIT
 Files: debian/*
 Copyright: 2014-     Laszlo Boszormenyi (GCS) <gcs@debian.org>,
  2013-2014 Georges Khaznadar <georgesk@debian.org>
+ 2017 Scibian Project <legal@scibian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
